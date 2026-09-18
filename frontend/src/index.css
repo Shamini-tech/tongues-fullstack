@@ -1,0 +1,30 @@
+/* Universal Root Rules & Baseline Typography Setup */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; /* Enable crisp text rendering on macOS/WebKit */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Universal Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Expand body to occupy full screen viewport */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Ensure React root container expands full width */
+#root {
+  width: 100%;
+}
